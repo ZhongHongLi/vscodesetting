@@ -1,0 +1,65 @@
+{
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.fontSize": 14.5,
+  "editor.tabSize": 2,
+  "vetur.format.defaultFormatterOptions": {
+      "js-beautify-html": {
+          "wrap_attributes": "aligned-multiple"
+      },
+      "prettyhtml": {
+          "printWidth": 100,
+          "singleQuote": false,
+          "wrapAttributes": false,
+          "sortAttributes": false
+      }
+  },
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "workbench.colorTheme": "Gruvbox Material Dark",
+  "[vue]": {
+      "editor.defaultFormatter": "octref.vetur"
+  },
+  "cssinjsPx2rem.designSize": 1920,
+  "cssinjsPx2rem.splitNumber": 25,
+  "px-to-rem.px-per-rem": 75,
+  "vetur.experimental.templateInterpolationService": false,
+  "[css]": {
+      "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[javascript]": {
+      "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+  },
+  "workbench.sideBar.location": "right",
+  "workbench.productIconTheme": "icons-carbon",
+  "window.zoomLevel": 1,
+  "EnglishChineseDictionary.enableHover": true,
+  "github.copilot.enable": {
+      "*": true,
+      "yaml": false,
+      "plaintext": false,
+      "markdown": false,
+      "javascript": true
+  },
+  "liveServer.settings.ignoreFiles": [
+      ".vscode/**",
+      "**/*.scss",
+      "**/*.sass",
+      "**/*.ts"
+  ]
+}
